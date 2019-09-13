@@ -30,14 +30,14 @@ class Bookshelf extends Component {
       <div className="container">
         <Jumbotron
           title="My Bookshelf"
-          subtitle="Who needs an actual bookshelf?"
-          instructions="Check out your saved books!"
+          subtitle="Your virtual bookshelf. Pretty cool, eh?"
+          instructions="Check out your saved books below!"
         />
         <BookCard
           books={this.state.books}
           buttonAction={this.deleteBook}
           buttonType="btn btn-danger mt-2"
-          buttonText="Delete Book"
+          buttonText="Remove Book"
         />
       </div>
     )

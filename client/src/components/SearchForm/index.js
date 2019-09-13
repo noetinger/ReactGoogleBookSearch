@@ -9,15 +9,15 @@ function SearchForm(props) {
           <div className="card-body">
             <form>
               <div className="form-group">
-                <label htmlFor="book-search">
-                  Search Any Book Title Below:
+                <label className="search-title" htmlFor="book-search">
+                  Search for a Book Below:
                 </label>
                 <input type="text"
                        value={props.search}
                        onChange={props.handleInputChange}
                        className="form-control"
                        id="book-search"
-                       placeholder="The Bell Jar"/>
+                       placeholder="The Martian"/>
               </div>
               <button type="submit"
                       className="btn btn-outline-dark"

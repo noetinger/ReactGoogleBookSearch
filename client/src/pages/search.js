@@ -97,9 +97,9 @@ class search extends Component {
       <div className="container">
 
         <Jumbotron
-          title="Search"
+          title="Search Books"
           subtitle="Using Google Books API"
-          instructions="Search for a book and view the results. You can save your book to your library to view later."
+          instructions="Search for any book! You can save any books to your bookshelf to view later."
         />
         <SearchForm
           handleInputChange={this.handleInputChange}

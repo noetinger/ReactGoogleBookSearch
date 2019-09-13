@@ -1,4 +1,15 @@
-.cardbody {
+.card-body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #EEE2DC;
+    background-color: #FFb48F;
+}
+
+.search-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #A64AC9;
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #123C69;
+    background-color: #17E9E0;
 }
