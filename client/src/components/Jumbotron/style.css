@@ -1,0 +1,18 @@
+.jumbotron {
+    background-color: lightskyblue;
+  }
+  
+  .title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+  }
+  
+  .subtitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .instructions {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px black;
+  }
